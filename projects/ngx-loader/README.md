@@ -15,7 +15,14 @@ npm i @tusharghoshbd/ngx-loader
 ```
 
 ## Usage
+#### app module
+```angular
+import { NgxLoaderModule } from '@tusharghoshbd/ngx-loader';
 
+@NgModule({
+  imports:      [ ...,  NgxLoaderModule ]
+})
+```
 #### Html file
 ```angular
  <ngx-loader [show]="true" > Loading... </ngx-loader>
