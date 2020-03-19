@@ -1,17 +1,57 @@
 
 
-<div class="container" style="background-color: red; min-height: 200px; position: relative;">
-    <ngx-loader [show]="true" [fullScreen] = "false"></ngx-loader>
-    fsafdsfd
-    <div>dfds</div>
+<div class="container">
+    <h1>Ngx Loader</h1>
+    <hr/>
+    <button type="button" (click)="onClickDefault()" class="btn btn-primary">Default Loader</button> 
+    <button  type="button" (click)="onClickInsideContainer()" class="btn btn-primary">Inside container Loader</button>
+    <button  type="button" (click)="onClickCustomTemplate()" class="btn btn-primary">Loader with custom template</button>  
 </div>
-<div style="background-color: blue; min-height: 400px; position: relative;" >
-    <!-- <ngx-loader></ngx-loader> -->
-    dfsdafkjslkfj
-    <p>dfsdafkjslkfj</p>
-    <p>dfsdafkjslkfj</p>
-    <p>dfsdafkjslkfj</p>
-</div>
+<br/>
+  <div class="container" style="position: relative;">
+
+    <ngx-loader [show]="show" [fullScreen] = "fullScreen" [template]="template"> Loading... </ngx-loader>
+
+    <h1>Loader template Example </h1>
+    <div class="row">
+        <div class="col-md-3 bg">
+        <div class="loader loader-2">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+      </div>
+      <div class="col-md-3 bg">
+        <div class="loader loader-4">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      
+      <div class="col-md-3 bg">
+        <div class="loader loader-3"></div>
+      </div>
+      
+      <div class="col-md-3 bg">
+        <div class="loader loader-5">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      
+      
+      <div class="col-md-3 bg">
+        <div class="loader loader-8"></div>
+      </div>
+      <div class="col-md-3 bg">
+        <div class="loader loader-7"></div>
+      </div>
+    </div>
 
 
+  </div>
 
+  <br/>

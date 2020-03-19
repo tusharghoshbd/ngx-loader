@@ -1,19 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 
 @Component({
-  selector: 'lib-ngx-loader',
-  template: `
-    <p>
-      ngx-loader works!
-    </p>
-  `,
-  styles: []
+  selector: 'ngx-loader',
+  templateUrl:'./ngx-loader.component.html',
+  styleUrls: ['./ngx-loader.component.css']
 })
 export class NgxLoaderComponent implements OnInit {
 
-  constructor() { }
+    @Input() show = false;
+    @Input() fullScreen = true;
+    @Input() template:any  ;
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+        
+    }
 
 }

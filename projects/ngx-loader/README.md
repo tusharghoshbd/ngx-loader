@@ -1,24 +1,36 @@
-# NgxLoader
+# Ngx Loader
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.3.
+**Ngx loader** is an angular library for preloader. It is very easy to integrate to component and can be customize with custom template.
 
-## Code scaffolding
 
-Run `ng generate component component-name --project ngx-loader` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project ngx-loader`.
-> Note: Don't forget to add `--project ngx-loader` or else it will be added to the default project in your `angular.json` file. 
+## Demo
+![](https://media.giphy.com/media/LPSuxSHJD5Efe1Y3S9/giphy.gif)
 
-## Build
+[Demo in stackblitz](https://stackblitz.com/edit/ngx-loader?file=src/app/app.component.ts)
 
-Run `ng build ngx-loader` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Publishing
+```angular
+npm i @tusharghoshbd/ngx-loader
+```
 
-After building your library with `ng build ngx-loader`, go to the dist folder `cd dist/ngx-loader` and run `npm publish`.
+## Usage
 
-## Running unit tests
+#### Html file
+```angular
+ <ngx-loader [show]="true" > Loading... </ngx-loader>
+```
 
-Run `ng test ngx-loader` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Features:
+* Fullscreen mode 
+* Insider container mode (Parent container must be style position: relative)
+* Customize the template
+* Easy to integrate in component
 
-## Further help
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

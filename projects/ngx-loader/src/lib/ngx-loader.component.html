@@ -1,0 +1,9 @@
+
+<div  class="overlay" [style.position]="fullScreen ? 'fixed' : 'absolute'" [hidden]="!show">
+    <div *ngIf="!template" id="loader"></div>
+    <div *ngIf="template" [innerHTML]="template">
+    </div>
+    <div class="loading-text" >
+        <ng-content></ng-content>    
+    </div>
+</div>
