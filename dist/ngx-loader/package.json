@@ -1,0 +1,41 @@
+{
+  "name": "@tusharghoshbd/ngx-loader",
+  "version": "1.1.0",
+  "description": "Angular loader component using html and css",
+  "main": "bundles/tusharghoshbd-ngx-loader.umd.js",
+  "author": "tusharghoshbd",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tusharghoshbd/ngx-loader"
+  },
+  "keywords": [
+    "ngx loader",
+    "angular",
+    "loader",
+    "spinner",
+    "preloader",
+    "ngx waiter",
+    "loading-screen",
+    "ngx ng4 ng5 ng6 ng7 ng8",
+    "loading-spinner",
+    "progress",
+    "progress-loader"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^8.1.3",
+    "@angular/core": "^8.1.3"
+  },
+  "module": "fesm5/tusharghoshbd-ngx-loader.js",
+  "es2015": "fesm2015/tusharghoshbd-ngx-loader.js",
+  "esm5": "esm5/tusharghoshbd-ngx-loader.js",
+  "esm2015": "esm2015/tusharghoshbd-ngx-loader.js",
+  "fesm5": "fesm5/tusharghoshbd-ngx-loader.js",
+  "fesm2015": "fesm2015/tusharghoshbd-ngx-loader.js",
+  "typings": "tusharghoshbd-ngx-loader.d.ts",
+  "metadata": "tusharghoshbd-ngx-loader.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
