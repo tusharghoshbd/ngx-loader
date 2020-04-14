@@ -1,6 +1,6 @@
 {
   "name": "@tusharghoshbd/ngx-loader",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Angular loader component using html and css",
   "main": "dist/ngx-loader",
   "author": "tusharghoshbd",

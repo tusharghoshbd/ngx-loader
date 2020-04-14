@@ -6,19 +6,19 @@
 ## Demo
 ![](https://media.giphy.com/media/LPSuxSHJD5Efe1Y3S9/giphy.gif)
 
+[Demo in example](https://tusharghoshbd.github.io/ngx-loader/#)
+
 [Demo in stackblitz](https://stackblitz.com/edit/ngx-loader?file=src/app/app.component.ts)
 
 ## Installation
 
-```angular
+```ts
 npm i @tusharghoshbd/ngx-loader
 ```
 
-
-
 ## Usage
 #### app module
-```angular
+```ts
 import { NgxLoaderModule } from '@tusharghoshbd/ngx-loader';
 
 @NgModule({
@@ -26,7 +26,7 @@ import { NgxLoaderModule } from '@tusharghoshbd/ngx-loader';
 })
 ```
 #### Html file
-```angular
+```html
  <ngx-loader [show]="true" > Loading... </ngx-loader>
 ```
 

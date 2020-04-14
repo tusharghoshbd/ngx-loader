@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { NgxLoaderModule } from 'ngx-loader';
+import { NgxLoaderModule } from '@tusharghoshbd/ngx-loader';
 
 import { AppComponent } from './app.component';
 
